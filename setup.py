@@ -14,7 +14,7 @@ def get_requirements(file_path:str)->List[str]:
         if HYPEN_E_DON in requirements: 
             requirements.remove(HYPEN_E_DON)
 
-    return requirements
+    return requirements ss
 
 setup(
 name = "mlproject3",
